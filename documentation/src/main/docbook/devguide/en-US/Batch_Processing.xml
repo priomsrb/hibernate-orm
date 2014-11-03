@@ -46,7 +46,7 @@
   <section>
     <title>Batch updates</title>
     <para>
-      When you retriev and update data, <methodname>flush()</methodname> and <methodname>clear()</methodname> the
+      When you retrieve and update data, <methodname>flush()</methodname> and <methodname>clear()</methodname> the
       session regularly.  In addition, use method <methodname>scroll()</methodname> to take advantage of server-side
       cursors for queries that return many rows of data.
     </para>
