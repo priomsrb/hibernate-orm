@@ -315,7 +315,7 @@
               Some applications only rarely need to modify data. This is the case if two transactions are unlikely to
               try to update the same item simultaneously. In this case, you do not need strict transaction isolation,
               and a nonstrict-read-write cache might be appropriate. If the cache is used in a JTA environment, you must
-              specify <classname>hibernate.transaction.manager_lookup_class</classname>. In other environments, ensore
+              specify <classname>hibernate.transaction.manager_lookup_class</classname>. In other environments, ensure
               that the transaction is complete before you call <methodname>Session.close()</methodname> or
               <methodname>Session.disconnect()</methodname>.
             </para>
