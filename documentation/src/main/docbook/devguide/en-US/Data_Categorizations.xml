@@ -435,7 +435,7 @@
     <title>Entity Types</title>
     <para>
       Entities are application-specific classes which correlate to rows in a table, using a unique identifier. Because
-      of the requirement for a unique identifier, ntities exist independently and define their own lifecycle. As an
+      of the requirement for a unique identifier, entities exist independently and define their own lifecycle. As an
       example, deleting a Membership should not delete the User or the Group. For more information, see the chapter on
       Persistent Classes.
     </para>
